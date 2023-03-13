@@ -1,5 +1,4 @@
-
-def find_MaxValue(list, k):
+def find_maxvalue(list, k):
     output = []
     for i in range(0, (len(list) - k)+1):
         total_value = sum(list[i:k])
@@ -7,4 +6,4 @@ def find_MaxValue(list, k):
         output.append(total_value)
     return max(output)
 
-# print(find_MaxValue([-3,4,3,-2,2,5], 4))
+# print(find_maxvalue([-3,4,3,-2,2,5], 4))
