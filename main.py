@@ -5,5 +5,3 @@ def find_maxvalue(list, k):
         k += 1
         output.append(total_value)
     return max(output)
-
-# print(find_maxvalue([-3,4,3,-2,2,5], 4))
